@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up Form</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Font Awesome -->
+  <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="form-container">
+    <div class="img-side d-none d-md-block"></div>
+    <div class="form-side w-100 w-md-50">
+      <form action="">
+        <!-- heading -->
+        <h1 class="text-center py-5" style="color:darkblue;font-weight:900;">Welcome to Burj Khalifa</h1>
+        <!-- name -->
+        <div class="row">
+          <div class="col-md-6">
+            <input type="text" name="first-name" id="first-name" placeholder="first name">
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="last-name" id="last-name" placeholder="last name">
+          </div>
+        </div>
+        <!-- email -->
+        <div class="row">
+          <div class="col-12">
+            <input type="email" name="email" id="email" placeholder="email">
+          </div>
+        </div>
+        <!-- password -->
+        <div class="row">
+          <div class="col-12">
+            <input type="password" name="password" id="password" placeholder="password">
+          </div>
+        </div>
+        <!-- terms -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input mr-2 p-0" type="checkbox" value="" id="form2Example3" checked />
+          <label class="form-check-label" for="form2Example3">
+            I agree to the terms and conditions.
+          </label>
+        </div>
+        <!-- submit -->
+        <div class="row">
+          <div class="col-12">
+            <input type="submit" value="Sign up" id="submit">
+          </div>
+        </div>
+        <!-- other sign up options -->
+        <h5 class="text-center">or</h5>
+        <h6 class="text-center">Sign up with:</h6>
+        <div class="text-center">
+          <button type="button" class="btn btn-floating mx-1">
+            <i class="fab fa-facebook-f"></i>
+          </button>
+
+          <button type="button" class="btn btn-floating mx-1">
+            <i class="fab fa-google"></i>
+          </button>
+
+          <button type="button" class="btn btn-floating mx-1">
+            <i class="fab fa-twitter"></i>
+          </button>
+
+          <button type="button" class="btn btn-floating mx-1">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+  <!-- js -->
+  <script src="./js/main.js"></script>
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.js"></script>
+</body>
+
+</html>
